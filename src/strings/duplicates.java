@@ -12,7 +12,7 @@ public class duplicates {
         int[] count = new int[NO_OF_CHAR];
         fillCharCount(input , count);
         for (int i = 0 ; i < NO_OF_CHAR ; i++){
-            if (count[i] > 1){
+            if (count[i] > 0){
                 System.out.println( (char)(i)  + " the count is " + count[i]);
             }
         }
